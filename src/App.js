@@ -1,4 +1,4 @@
-import React, { useReducer } from 'react';
+import React from 'react';
 import { connect } from 'react-redux';
 
 
@@ -23,6 +23,6 @@ const App = (props) => {
   );
 };
 const mapStateToProps = (state) => {
-  return { state }
+  return { state };
 }
 export default connect(mapStateToProps, {})(App);
